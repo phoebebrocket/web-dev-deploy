@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/phoebebrocket/web-dev-deploy/static/css/main.a617e044.chunk.css",
+    "main.js": "/phoebebrocket/web-dev-deploy/static/js/main.9db959d4.chunk.js",
+    "main.js.map": "/phoebebrocket/web-dev-deploy/static/js/main.9db959d4.chunk.js.map",
+    "runtime-main.js": "/phoebebrocket/web-dev-deploy/static/js/runtime-main.62e3c003.js",
+    "runtime-main.js.map": "/phoebebrocket/web-dev-deploy/static/js/runtime-main.62e3c003.js.map",
+    "static/js/2.a6550eac.chunk.js": "/phoebebrocket/web-dev-deploy/static/js/2.a6550eac.chunk.js",
+    "static/js/2.a6550eac.chunk.js.map": "/phoebebrocket/web-dev-deploy/static/js/2.a6550eac.chunk.js.map",
+    "static/js/3.8c9557f2.chunk.js": "/phoebebrocket/web-dev-deploy/static/js/3.8c9557f2.chunk.js",
+    "static/js/3.8c9557f2.chunk.js.map": "/phoebebrocket/web-dev-deploy/static/js/3.8c9557f2.chunk.js.map",
+    "index.html": "/phoebebrocket/web-dev-deploy/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/phoebebrocket/web-dev-deploy/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.a6550eac.chunk.js.LICENSE.txt": "/phoebebrocket/web-dev-deploy/static/js/2.a6550eac.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/phoebebrocket/web-dev-deploy/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62e3c003.js",
+    "static/js/2.a6550eac.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.9db959d4.chunk.js"
+  ]
+}
