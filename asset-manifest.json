@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/web-dev-deploy/static/css/main.a617e044.chunk.css",
-    "main.js": "/web-dev-deploy/static/js/main.30801d02.chunk.js",
-    "main.js.map": "/web-dev-deploy/static/js/main.30801d02.chunk.js.map",
-    "runtime-main.js": "/web-dev-deploy/static/js/runtime-main.0aa9d888.js",
-    "runtime-main.js.map": "/web-dev-deploy/static/js/runtime-main.0aa9d888.js.map",
-    "static/js/2.a6550eac.chunk.js": "/web-dev-deploy/static/js/2.a6550eac.chunk.js",
-    "static/js/2.a6550eac.chunk.js.map": "/web-dev-deploy/static/js/2.a6550eac.chunk.js.map",
-    "static/js/3.8c9557f2.chunk.js": "/web-dev-deploy/static/js/3.8c9557f2.chunk.js",
-    "static/js/3.8c9557f2.chunk.js.map": "/web-dev-deploy/static/js/3.8c9557f2.chunk.js.map",
+    "main.css": "/web-dev-deploy/static/css/main.a70a5db5.chunk.css",
+    "main.js": "/web-dev-deploy/static/js/main.6df605f9.chunk.js",
+    "main.js.map": "/web-dev-deploy/static/js/main.6df605f9.chunk.js.map",
+    "runtime-main.js": "/web-dev-deploy/static/js/runtime-main.c2a6d5aa.js",
+    "runtime-main.js.map": "/web-dev-deploy/static/js/runtime-main.c2a6d5aa.js.map",
+    "static/js/2.a5fab279.chunk.js": "/web-dev-deploy/static/js/2.a5fab279.chunk.js",
+    "static/js/2.a5fab279.chunk.js.map": "/web-dev-deploy/static/js/2.a5fab279.chunk.js.map",
+    "static/js/3.ff78668d.chunk.js": "/web-dev-deploy/static/js/3.ff78668d.chunk.js",
+    "static/js/3.ff78668d.chunk.js.map": "/web-dev-deploy/static/js/3.ff78668d.chunk.js.map",
     "index.html": "/web-dev-deploy/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/web-dev-deploy/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.a6550eac.chunk.js.LICENSE.txt": "/web-dev-deploy/static/js/2.a6550eac.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/web-dev-deploy/static/media/logo.6ce24c58.svg"
+    "static/css/main.a70a5db5.chunk.css.map": "/web-dev-deploy/static/css/main.a70a5db5.chunk.css.map",
+    "static/js/2.a5fab279.chunk.js.LICENSE.txt": "/web-dev-deploy/static/js/2.a5fab279.chunk.js.LICENSE.txt",
+    "static/media/bigcookie.90ee67b6.png": "/web-dev-deploy/static/media/bigcookie.90ee67b6.png",
+    "static/media/bigcookie.ed53fb74.jpg": "/web-dev-deploy/static/media/bigcookie.ed53fb74.jpg",
+    "static/media/blue_logo.9f129e06.svg": "/web-dev-deploy/static/media/blue_logo.9f129e06.svg",
+    "static/media/box2.3db74a86.jpg": "/web-dev-deploy/static/media/box2.3db74a86.jpg",
+    "static/media/cookiebox.74681d3d.jpg": "/web-dev-deploy/static/media/cookiebox.74681d3d.jpg",
+    "static/media/cookieboxblue.6f001ffb.png": "/web-dev-deploy/static/media/cookieboxblue.6f001ffb.png",
+    "static/media/cookiepile.6071c998.jpg": "/web-dev-deploy/static/media/cookiepile.6071c998.jpg",
+    "static/media/cookiepile.6ac0aef2.png": "/web-dev-deploy/static/media/cookiepile.6ac0aef2.png",
+    "static/media/cooookies.44274a52.jpg": "/web-dev-deploy/static/media/cooookies.44274a52.jpg",
+    "static/media/flatcookies.9eb92808.png": "/web-dev-deploy/static/media/flatcookies.9eb92808.png",
+    "static/media/flatcookies.f88b5e9c.jpg": "/web-dev-deploy/static/media/flatcookies.f88b5e9c.jpg",
+    "static/media/homecookies.0e374fa6.png": "/web-dev-deploy/static/media/homecookies.0e374fa6.png",
+    "static/media/homecookies.7d03d16e.jpg": "/web-dev-deploy/static/media/homecookies.7d03d16e.jpg",
+    "static/media/logocolour.f99b6c27.svg": "/web-dev-deploy/static/media/logocolour.f99b6c27.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0aa9d888.js",
-    "static/js/2.a6550eac.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.30801d02.chunk.js"
+    "static/js/runtime-main.c2a6d5aa.js",
+    "static/js/2.a5fab279.chunk.js",
+    "static/css/main.a70a5db5.chunk.css",
+    "static/js/main.6df605f9.chunk.js"
   ]
 }
