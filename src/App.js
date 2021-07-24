@@ -15,29 +15,31 @@ function App() {
 
   return (
     <>
+  
 
   <Header />
 
     <Switch>
     
-    <Route path="/home">
+    <Route exact path="/">
       <Home />
     </Route>
     
-    <Route path="/about">
+    <Route exact path="/about">
       <About />
     </Route>
 
-    <Route path="/flavours">
+    <Route exact path="/flavours">
       <Flavours />
     </Route>
 
-    <Route path="/shop">
+    <Route exact path="/shop">
       <Shop />
     </Route>
 
     </Switch>
     <Footer/>
+    
   </>
   );
 }
