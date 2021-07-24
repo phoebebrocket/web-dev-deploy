@@ -16,7 +16,7 @@ function App() {
   return (
     <>
 
-    <Router basename={public.env.PUBLIC_URL}>
+   
   
 
         <Header />
@@ -41,7 +41,7 @@ function App() {
 
         </Switch>
         <Footer/>
-    </Router>
+     
   </>
   );
 }
