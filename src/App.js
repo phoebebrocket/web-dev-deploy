@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { v4 as uuid } from "uuid";
 import "./App.css";
 
@@ -15,31 +15,33 @@ function App() {
 
   return (
     <>
+
+    <Router basename={public.env.PUBLIC_URL}>
   
 
-  <Header />
+        <Header />
 
-    <Switch>
-    
-    <Route exact path="/">
-      <Home />
-    </Route>
-    
-    <Route exact path="/about">
-      <About />
-    </Route>
+        <Switch>
+        
+          <Route exact path="/home">
+            <Home />
+          </Route>
+          
+          <Route exact path="/about">
+            <About />
+          </Route>
 
-    <Route exact path="/flavours">
-      <Flavours />
-    </Route>
+          <Route exact path="/flavours">
+            <Flavours />
+          </Route>
 
-    <Route exact path="/shop">
-      <Shop />
-    </Route>
+          <Route exact path="/shop">
+            <Shop />
+          </Route>
 
-    </Switch>
-    <Footer/>
-    
+        </Switch>
+        <Footer/>
+    </Router>
   </>
   );
 }
