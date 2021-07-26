@@ -24,13 +24,13 @@ const Header = (props) => {
            <ul className={click ? "nav-options active" : "nav-options"}>
             
                <li className="option" onClick={closeMobileMenu}>
-                   <a href="/About">About</a>
+                   <a href="./About">About</a>
                </li>
                <li className="option" onClick={closeMobileMenu}>
-                   <a href="/Flavours">Flavours</a>
+                   <a href="./Flavours">Flavours</a>
                </li>
                <li className="option" onClick={closeMobileMenu}>
-                   <a href="/Shop">
+                   <a href="./Shop">
                        
                        Shop {' '}
                        {countCartItems? (
