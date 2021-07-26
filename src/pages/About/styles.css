@@ -1,0 +1,11 @@
+.about-us {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-us {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

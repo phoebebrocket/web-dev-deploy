@@ -2,12 +2,15 @@ import React from 'react'
 import ImageBlock from '../../components/ImageBlock'
 import bigcookie from '../../assets/bigcookie.png'
 
+import './styles.css'
+
 
 
 function About() {
     return (
         <main className="about-us">
             <ImageBlock 
+                
                 img={bigcookie}
                 title="About us"
                 para1="Who doesn’t love cookies? Even better, who doesn’t love freshly baked cookies delivered weekly to your doorstep? That’s why I thought, and so cookie club was born."
