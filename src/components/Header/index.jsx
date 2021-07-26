@@ -25,13 +25,13 @@ const Header = (props) => {
            <ul className={click ? "nav-options active" : "nav-options"}>
             
                <li className="option" onClick={closeMobileMenu}>
-                   <Link to="/About">About</Link>
+                   <Link to="/about">About</Link>
                </li>
                <li className="option" onClick={closeMobileMenu}>
-                   <Link to="/Flavours">Flavours</Link>
+                   <Link to="/flavours">Flavours</Link>
                </li>
                <li className="option" onClick={closeMobileMenu}>
-                   <Link to="/Shop">
+                   <Link to="/shop">
                        
                        Shop
                     
