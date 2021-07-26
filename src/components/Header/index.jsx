@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import logocolour from '../../assets/logocolour.svg'
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import './styles.css'
 
@@ -25,23 +25,17 @@ const Header = (props) => {
            <ul className={click ? "nav-options active" : "nav-options"}>
             
                <li className="option" onClick={closeMobileMenu}>
-                   <a href="web-dev-deploy/About">About</a>
+                   <Link to="/About">About</Link>
                </li>
                <li className="option" onClick={closeMobileMenu}>
-                   <a href="web-dev-deploy/Flavours">Flavours</a>
+                   <Link to="/Flavours">Flavours</Link>
                </li>
                <li className="option" onClick={closeMobileMenu}>
-                   <a href="web-dev-deploy/Shop">
+                   <Link to="/Shop">
                        
-                       Shop {' '}
-                       {countCartItems? (
-                           <button className="badge">{countCartItems}</button>
-                       ) : (
-                           ''
-                       )
-                    }
+                       Shop
                     
-                    </a>
+                    </Link>
                </li>
            </ul>
 
