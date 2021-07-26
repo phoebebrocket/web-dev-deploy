@@ -14,7 +14,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://github.com/phoebebrocket/web-dev-deploy",
+  "homepage": "https://phoebebrocket.github.io/web-dev-deploy/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
