@@ -18,13 +18,11 @@ const Header = (props) => {
         <nav className="header">
 
             <div className="logo-container">
-                <a href="../../Home"><img className="header-logo" src={logocolour} alt="cookie club logo"/></a>
+                <a href="../../"><img className="header-logo" src={logocolour} alt="cookie club logo"/></a>
             </div>
 
            <ul className={click ? "nav-options active" : "nav-options"}>
-                <li className="option" onClick={closeMobileMenu}>
-                   <a href="../../Home">Home</a>
-               </li>
+            
                <li className="option" onClick={closeMobileMenu}>
                    <a href="../../About">About</a>
                </li>

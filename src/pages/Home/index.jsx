@@ -4,14 +4,14 @@ import ImageBlock from '../../components/ImageBlock'
 import Button from '../../components/Button'
 import ImageBlockSwitch from '../../components/ImageBlockSwitch'
 import homecookies from '../../assets/homecookies.png'
-import cookieboxblue from '../../assets/cookieboxblue.png'
+import cookiebox from '../../assets/cookiebox.jpg'
 import cookiepile from '../../assets/cookiepile.png'
 
 import './styles.css';
 
 const Home = () => {
     return (
-        <main>
+        <main className="home-page">
             <div className="landing">
                 <BlueLogo
                     className="blue-logo"
@@ -45,7 +45,7 @@ const Home = () => {
                     para2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat nunc, at sed nibh semper sit adipiscing vivamus sed. Vel tellus egestas massa, volutpat nibh metus eget in. Donec tempor urna quis sit id malesuada nisi amet volutpat. Egestas enim, ac fringilla urna, etiam sed nulla."
                     para3="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat nunc, at sed nibh semper sit adipiscing vivamus sed. Vel tellus egestas massa, volutpat nibh metus eget in. Donec tempor urna quis sit id malesuada nisi amet volutpat. Egestas enim, ac fringilla urna, etiam sed nulla."
                     name="Let me suggest!"
-                    img={cookieboxblue}
+                    img={cookiebox}
                     path='../../Flavours'
                     alt="cookies"
                />

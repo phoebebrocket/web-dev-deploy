@@ -5,7 +5,7 @@ import Form from '../../components/Form'
 
 function Flavours() {
     return (
-        <div>
+        <main className="flavour-page">
             <ImageBlockSwitch 
                 img={flatcookies}
                 title="Our Flavours"
@@ -19,7 +19,7 @@ function Flavours() {
                 path='../Shop'
             />
             <Form/>
-        </div>
+        </main>
     )
 }
 

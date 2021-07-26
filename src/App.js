@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 // import { v4 as uuid } from "uuid";
 import "./App.css";
 
@@ -23,7 +23,7 @@ function App() {
 
         <Switch>
         
-          <Route exact path="/home">
+          <Route exact path="/">
             <Home />
           </Route>
           

@@ -17,7 +17,7 @@
     flex-direction: column;
 } */
 
-.image {
+.block-image {
     align-self: center;
     width: 650px;
     max-height: auto;
