@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import logocolour from '../../assets/logocolour.svg'
+import { NavLink, Link } from "react-router-dom";
 
 import './styles.css'
 
@@ -18,7 +19,7 @@ const Header = (props) => {
         <nav className="header">
 
             <div className="logo-container">
-                <a href="/"><img className="header-logo" src={logocolour} alt="cookie club logo"/></a>
+                <Link to="/"><img className="header-logo" src={logocolour} alt="cookie club logo"/></Link>
             </div>
 
            <ul className={click ? "nav-options active" : "nav-options"}>
